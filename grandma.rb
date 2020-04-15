@@ -14,10 +14,10 @@
 
 def speak_to_grandma(greeting)
   if greeting.upcase == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
+    "I LOVE YOU TOO PUMPKIN!"
   elsif greeting.upcase == greeting
-    puts "HUH?! SPEAK UP, SONNY!"
+    "HUH?! SPEAK UP, SONNY!"
   else 
-    puts "NO, NOT SINCE 1938!"
+    "NO, NOT SINCE 1938!"
   end
 end
